@@ -48,6 +48,16 @@
                ReferencedContainer = "container:dicoding-expert.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE2A696026E5E970008D3424"
+               BuildableName = "DicodingExpertTest.xctest"
+               BlueprintName = "DicodingExpertTest"
+               ReferencedContainer = "container:dicoding-expert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

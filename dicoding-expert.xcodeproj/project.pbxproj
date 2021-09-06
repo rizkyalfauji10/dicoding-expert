@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE196BB226D8A75D00412B59 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE196BB126D8A75D00412B59 /* ProfileView.swift */; };
+		CE2A696426E5E970008D3424 /* DicodingExpertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A696326E5E970008D3424 /* DicodingExpertTest.swift */; };
 		CE33FEFD26E25C6100F0AA9A /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = CE33FEFC26E25C6100F0AA9A /* CorePackage */; };
-		CE4EC6B426CCEA84003B7BF4 /* dicoding_expertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6B326CCEA84003B7BF4 /* dicoding_expertApp.swift */; };
+		CE4EC6B426CCEA84003B7BF4 /* DicodingExpertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6B326CCEA84003B7BF4 /* DicodingExpertApp.swift */; };
 		CE4EC6B626CCEA84003B7BF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6B526CCEA84003B7BF4 /* ContentView.swift */; };
 		CE4EC6B826CCEA86003B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EC6B726CCEA86003B7BF4 /* Assets.xcassets */; };
 		CE4EC6BB26CCEA86003B7BF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EC6BA26CCEA86003B7BF4 /* Preview Assets.xcassets */; };
-		CE4EC6C626CCEA86003B7BF4 /* dicoding_expertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6C526CCEA86003B7BF4 /* dicoding_expertTests.swift */; };
-		CE4EC6D126CCEA86003B7BF4 /* dicoding_expertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EC6D026CCEA86003B7BF4 /* dicoding_expertUITests.swift */; };
 		CE4EC6EF26CCEE31003B7BF4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE4EC6EE26CCEE31003B7BF4 /* SDWebImageSwiftUI */; };
 		CE64A2C226D798AE0010ED76 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A2C126D798AE0010ED76 /* FavoritePresenter.swift */; };
 		CEB19A8426D7844800314E4B /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB19A8326D7844800314E4B /* FavoriteView.swift */; };
@@ -27,14 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE4EC6C226CCEA86003B7BF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE4EC6A826CCEA84003B7BF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE4EC6AF26CCEA84003B7BF4;
-			remoteInfo = "dicoding-expert";
-		};
-		CE4EC6CD26CCEA86003B7BF4 /* PBXContainerItemProxy */ = {
+		CE2A696626E5E970008D3424 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE4EC6A826CCEA84003B7BF4 /* Project object */;
 			proxyType = 1;
@@ -58,18 +50,15 @@
 
 /* Begin PBXFileReference section */
 		CE196BB126D8A75D00412B59 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE2A696126E5E970008D3424 /* DicodingExpertTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicodingExpertTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A696326E5E970008D3424 /* DicodingExpertTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingExpertTest.swift; sourceTree = "<group>"; };
+		CE2A696526E5E970008D3424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4EC6B026CCEA84003B7BF4 /* dicoding-expert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-expert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4EC6B326CCEA84003B7BF4 /* dicoding_expertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_expertApp.swift; sourceTree = "<group>"; };
+		CE4EC6B326CCEA84003B7BF4 /* DicodingExpertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingExpertApp.swift; sourceTree = "<group>"; };
 		CE4EC6B526CCEA84003B7BF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE4EC6B726CCEA86003B7BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4EC6BA26CCEA86003B7BF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE4EC6BC26CCEA86003B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE4EC6C126CCEA86003B7BF4 /* dicoding-expertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-expertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4EC6C526CCEA86003B7BF4 /* dicoding_expertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_expertTests.swift; sourceTree = "<group>"; };
-		CE4EC6C726CCEA86003B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE4EC6CC26CCEA86003B7BF4 /* dicoding-expertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-expertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4EC6D026CCEA86003B7BF4 /* dicoding_expertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_expertUITests.swift; sourceTree = "<group>"; };
-		CE4EC6D226CCEA86003B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE64A2C126D798AE0010ED76 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
 		CEB19A8326D7844800314E4B /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		CEE359AF26CF55E60098970A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -81,26 +70,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE2A695E26E5E970008D3424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE4EC6AD26CCEA84003B7BF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE33FEFD26E25C6100F0AA9A /* CorePackage in Frameworks */,
 				CE4EC6EF26CCEE31003B7BF4 /* SDWebImageSwiftUI in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4EC6BE26CCEA86003B7BF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4EC6C926CCEA86003B7BF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +104,20 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		CE2A696226E5E970008D3424 /* DicodingExpertTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A696326E5E970008D3424 /* DicodingExpertTest.swift */,
+				CE2A696526E5E970008D3424 /* Info.plist */,
+			);
+			path = DicodingExpertTest;
+			sourceTree = "<group>";
+		};
 		CE4EC6A726CCEA84003B7BF4 = {
 			isa = PBXGroup;
 			children = (
 				CE4EC6B226CCEA84003B7BF4 /* dicoding-expert */,
-				CE4EC6C426CCEA86003B7BF4 /* dicoding-expertTests */,
-				CE4EC6CF26CCEA86003B7BF4 /* dicoding-expertUITests */,
+				CE2A696226E5E970008D3424 /* DicodingExpertTest */,
 				CE4EC6B126CCEA84003B7BF4 /* Products */,
 				608C66F78796A7B4450932C4 /* Frameworks */,
 			);
@@ -137,8 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4EC6B026CCEA84003B7BF4 /* dicoding-expert.app */,
-				CE4EC6C126CCEA86003B7BF4 /* dicoding-expertTests.xctest */,
-				CE4EC6CC26CCEA86003B7BF4 /* dicoding-expertUITests.xctest */,
+				CE2A696126E5E970008D3424 /* DicodingExpertTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,7 +135,7 @@
 		CE4EC6B226CCEA84003B7BF4 /* dicoding-expert */ = {
 			isa = PBXGroup;
 			children = (
-				CE4EC6B326CCEA84003B7BF4 /* dicoding_expertApp.swift */,
+				CE4EC6B326CCEA84003B7BF4 /* DicodingExpertApp.swift */,
 				CE4EC6B526CCEA84003B7BF4 /* ContentView.swift */,
 				CE4EC6B726CCEA86003B7BF4 /* Assets.xcassets */,
 				CE4EC6BC26CCEA86003B7BF4 /* Info.plist */,
@@ -163,24 +152,6 @@
 				CE4EC6BA26CCEA86003B7BF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CE4EC6C426CCEA86003B7BF4 /* dicoding-expertTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE4EC6C526CCEA86003B7BF4 /* dicoding_expertTests.swift */,
-				CE4EC6C726CCEA86003B7BF4 /* Info.plist */,
-			);
-			path = "dicoding-expertTests";
-			sourceTree = "<group>";
-		};
-		CE4EC6CF26CCEA86003B7BF4 /* dicoding-expertUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE4EC6D026CCEA86003B7BF4 /* dicoding_expertUITests.swift */,
-				CE4EC6D226CCEA86003B7BF4 /* Info.plist */,
-			);
-			path = "dicoding-expertUITests";
 			sourceTree = "<group>";
 		};
 		CE4EC6E426CCEDBB003B7BF4 /* App */ = {
@@ -297,6 +268,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE2A696026E5E970008D3424 /* DicodingExpertTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2A696826E5E970008D3424 /* Build configuration list for PBXNativeTarget "DicodingExpertTest" */;
+			buildPhases = (
+				CE2A695D26E5E970008D3424 /* Sources */,
+				CE2A695E26E5E970008D3424 /* Frameworks */,
+				CE2A695F26E5E970008D3424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2A696726E5E970008D3424 /* PBXTargetDependency */,
+			);
+			name = DicodingExpertTest;
+			productName = DicodingExpertTest;
+			productReference = CE2A696126E5E970008D3424 /* DicodingExpertTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CE4EC6AF26CCEA84003B7BF4 /* dicoding-expert */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4EC6D526CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expert" */;
@@ -320,44 +309,6 @@
 			productReference = CE4EC6B026CCEA84003B7BF4 /* dicoding-expert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE4EC6C026CCEA86003B7BF4 /* dicoding-expertTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE4EC6D826CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertTests" */;
-			buildPhases = (
-				8F6BBD98DF79A7B912AB1BA4 /* [CP] Check Pods Manifest.lock */,
-				CE4EC6BD26CCEA86003B7BF4 /* Sources */,
-				CE4EC6BE26CCEA86003B7BF4 /* Frameworks */,
-				CE4EC6BF26CCEA86003B7BF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE4EC6C326CCEA86003B7BF4 /* PBXTargetDependency */,
-			);
-			name = "dicoding-expertTests";
-			productName = "dicoding-expertTests";
-			productReference = CE4EC6C126CCEA86003B7BF4 /* dicoding-expertTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CE4EC6CB26CCEA86003B7BF4 /* dicoding-expertUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE4EC6DB26CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertUITests" */;
-			buildPhases = (
-				51EFFC2F39AF5330FD09D57C /* [CP] Check Pods Manifest.lock */,
-				CE4EC6C826CCEA86003B7BF4 /* Sources */,
-				CE4EC6C926CCEA86003B7BF4 /* Frameworks */,
-				CE4EC6CA26CCEA86003B7BF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE4EC6CE26CCEA86003B7BF4 /* PBXTargetDependency */,
-			);
-			name = "dicoding-expertUITests";
-			productName = "dicoding-expertUITests";
-			productReference = CE4EC6CC26CCEA86003B7BF4 /* dicoding-expertUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -367,16 +318,12 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					CE2A696026E5E970008D3424 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CE4EC6AF26CCEA84003B7BF4;
+					};
 					CE4EC6AF26CCEA84003B7BF4 = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					CE4EC6C026CCEA86003B7BF4 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = CE4EC6AF26CCEA84003B7BF4;
-					};
-					CE4EC6CB26CCEA86003B7BF4 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = CE4EC6AF26CCEA84003B7BF4;
 					};
 				};
 			};
@@ -400,13 +347,19 @@
 			projectRoot = "";
 			targets = (
 				CE4EC6AF26CCEA84003B7BF4 /* dicoding-expert */,
-				CE4EC6C026CCEA86003B7BF4 /* dicoding-expertTests */,
-				CE4EC6CB26CCEA86003B7BF4 /* dicoding-expertUITests */,
+				CE2A696026E5E970008D3424 /* DicodingExpertTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE2A695F26E5E970008D3424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE4EC6AE26CCEA84003B7BF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,67 +369,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4EC6BF26CCEA86003B7BF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4EC6CA26CCEA86003B7BF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51EFFC2F39AF5330FD09D57C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dicoding-expert-dicoding-expertUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F6BBD98DF79A7B912AB1BA4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dicoding-expertTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CE4EC6F026CCF9C5003B7BF4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +392,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE2A695D26E5E970008D3424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A696426E5E970008D3424 /* DicodingExpertTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE4EC6AC26CCEA84003B7BF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,43 +413,60 @@
 				CEE359B726CF56AB0098970A /* HomeRouter.swift in Sources */,
 				CEE359BF26CF5BB60098970A /* RestaurantRow.swift in Sources */,
 				CE64A2C226D798AE0010ED76 /* FavoritePresenter.swift in Sources */,
-				CE4EC6B426CCEA84003B7BF4 /* dicoding_expertApp.swift in Sources */,
+				CE4EC6B426CCEA84003B7BF4 /* DicodingExpertApp.swift in Sources */,
 				CEB19A8426D7844800314E4B /* FavoriteView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4EC6BD26CCEA86003B7BF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE4EC6C626CCEA86003B7BF4 /* dicoding_expertTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4EC6C826CCEA86003B7BF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE4EC6D126CCEA86003B7BF4 /* dicoding_expertUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE4EC6C326CCEA86003B7BF4 /* PBXTargetDependency */ = {
+		CE2A696726E5E970008D3424 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE4EC6AF26CCEA84003B7BF4 /* dicoding-expert */;
-			targetProxy = CE4EC6C226CCEA86003B7BF4 /* PBXContainerItemProxy */;
-		};
-		CE4EC6CE26CCEA86003B7BF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE4EC6AF26CCEA84003B7BF4 /* dicoding-expert */;
-			targetProxy = CE4EC6CD26CCEA86003B7BF4 /* PBXContainerItemProxy */;
+			targetProxy = CE2A696626E5E970008D3424 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CE2A696926E5E970008D3424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DicodingExpertTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.code.DicodingExpertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-expert.app/dicoding-expert";
+			};
+			name = Debug;
+		};
+		CE2A696A26E5E970008D3424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DicodingExpertTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.code.DicodingExpertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-expert.app/dicoding-expert";
+			};
+			name = Release;
+		};
 		CE4EC6D326CCEA86003B7BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -705,89 +625,18 @@
 			};
 			name = Release;
 		};
-		CE4EC6D926CCEA86003B7BF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "dicoding-expertTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.code.dicoding-expertTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-expert.app/dicoding-expert";
-			};
-			name = Debug;
-		};
-		CE4EC6DA26CCEA86003B7BF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "dicoding-expertTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.code.dicoding-expertTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-expert.app/dicoding-expert";
-			};
-			name = Release;
-		};
-		CE4EC6DC26CCEA86003B7BF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "dicoding-expertUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.code.dicoding-expertUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dicoding-expert";
-			};
-			name = Debug;
-		};
-		CE4EC6DD26CCEA86003B7BF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "dicoding-expertUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.code.dicoding-expertUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dicoding-expert";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE2A696826E5E970008D3424 /* Build configuration list for PBXNativeTarget "DicodingExpertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2A696926E5E970008D3424 /* Debug */,
+				CE2A696A26E5E970008D3424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE4EC6AB26CCEA84003B7BF4 /* Build configuration list for PBXProject "dicoding-expert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -802,24 +651,6 @@
 			buildConfigurations = (
 				CE4EC6D626CCEA86003B7BF4 /* Debug */,
 				CE4EC6D726CCEA86003B7BF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE4EC6D826CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE4EC6D926CCEA86003B7BF4 /* Debug */,
-				CE4EC6DA26CCEA86003B7BF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE4EC6DB26CCEA86003B7BF4 /* Build configuration list for PBXNativeTarget "dicoding-expertUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE4EC6DC26CCEA86003B7BF4 /* Debug */,
-				CE4EC6DD26CCEA86003B7BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

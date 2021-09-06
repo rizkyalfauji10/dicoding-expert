@@ -9,7 +9,7 @@ import SwiftUI
 import CorePackage
 
 @main
-struct dicoding_expertApp: App {
+struct DicodingExpertApp: App {
     var body: some Scene {
         let getListUseCase = Injection.init().provideHome()
         let homePresenter = HomePresenter(getListUseCase: getListUseCase)
